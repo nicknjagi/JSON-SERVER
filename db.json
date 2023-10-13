@@ -1,102 +1,198 @@
 {
-  "transactions": [
+  "items": [
     {
       "id": 1,
-      "date": "2019-12-01",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
-    },
-    {
-      "id": 2,
-      "date": "2019-12-01",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
+      "productName": "Tea Tree Face Wash",
+      "category": "skin care",
+      "quantity": "6",
+      "cost": "8.99",
+      "price": "11.99"
     },
     {
       "id": 3,
-      "date": "2019-12-02",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
+      "productName": "Aloe Vera Gel",
+      "category": "Skin Care",
+      "quantity": 57,
+      "cost": 6.75,
+      "price": 8.99
     },
     {
       "id": 4,
-      "date": "2019-12-04",
-      "description": "Sunglasses, Urban Outfitters",
-      "category": "Fashion",
-      "amount": -24.99
+      "productName": "Lavender Shampoo",
+      "category": "Hair Care",
+      "quantity": 33,
+      "cost": 9.75,
+      "price": 12.49
     },
     {
       "id": 5,
-      "date": "2019-12-06",
-      "description": "Venmo, Alice Pays you for Burrito",
-      "category": "Food",
-      "amount": 8.75
+      "productName": "Cucumber Eye Cream",
+      "category": "Skin Care",
+      "quantity": 22,
+      "cost": 5.99,
+      "price": 7.99
     },
     {
       "id": 6,
-      "date": "2019-12-06",
-      "description": "Chipotle",
-      "category": "Food",
-      "amount": -17.59
+      "productName": "Argan Oil Conditioner",
+      "category": "Hair Care",
+      "quantity": 40,
+      "cost": 11.25,
+      "price": 14.99
     },
     {
       "id": 7,
-      "date": "2019-12-07",
-      "description": "Birthday Check from Grandma",
-      "category": "Gift",
-      "amount": 50
+      "productName": "Lip Balm Set",
+      "category": "Lip Care",
+      "quantity": 75,
+      "cost": 4.99,
+      "price": 6.99
     },
     {
       "id": 8,
-      "date": "2019-12-09",
-      "description": "Lyft Ride",
-      "category": "Transportation",
-      "amount": -13.25
-    },
-    {
-      "id": 9,
-      "date": "2019-12-11",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
+      "productName": "Handmade Soap",
+      "category": "Bath & Body",
+      "quantity": 29,
+      "cost": 3.49,
+      "price": 4.99
     },
     {
       "id": 10,
-      "date": "2019-12-16",
-      "description": "Tickets, Flatiron Multiplex Cinemas",
-      "category": "Entertainment",
-      "amount": -24
+      "productName": "Chamomile Tea",
+      "category": "Beverages",
+      "quantity": 120,
+      "cost": 3.99,
+      "price": 5.99
     },
     {
       "id": 11,
-      "date": "2019-12-16",
-      "description": "MTA Vending Machine: MetroCard",
-      "category": "Transportation",
-      "amount": -116.39
+      "productName": "Organic Toothpaste",
+      "category": "Oral Care",
+      "quantity": 50,
+      "cost": 6.25,
+      "price": 7.99
     },
     {
       "id": 12,
-      "date": "2019-12-17",
-      "description": "Venmo, Pay Roommate for Rent",
-      "category": "Housing",
-      "amount": -975
+      "productName": "Yoga Mat",
+      "category": "Fitness",
+      "quantity": 15,
+      "cost": 18.99,
+      "price": 24.99
     },
     {
-      "date": "2022-07-09",
-      "description": "Office lunch",
-      "category": "Food",
-      "amount": "2000",
+      "id": 13,
+      "productName": "Leather Wallet",
+      "category": "Accessories",
+      "quantity": 40,
+      "cost": 22.99,
+      "price": 29.99
+    },
+    {
+      "id": 14,
+      "productName": "Scented Candles",
+      "category": "Home Decor",
+      "quantity": 38,
+      "cost": 5.99,
+      "price": 8.49
+    },
+    {
+      "id": 15,
+      "productName": "Olive Oil",
+      "category": "Cooking",
+      "quantity": 60,
+      "cost": 7.49,
+      "price": 9.99
+    },
+    {
+      "id": 16,
+      "productName": "Bamboo Toothbrush",
+      "category": "Oral Care",
+      "quantity": 70,
+      "cost": 1.99,
+      "price": 3.49
+    },
+    {
+      "id": 17,
+      "productName": "Reusable Shopping Bag",
+      "category": "Environment",
+      "quantity": 80,
+      "cost": 2.49,
+      "price": 3.99
+    },
+    {
+      "id": 18,
+      "productName": "Moringa Body Butter",
+      "category": "Skin Care",
+      "quantity": 28,
+      "cost": 14.99,
+      "price": 17.99
+    },
+    {
+      "id": 19,
+      "productName": "Herbal Tea Set",
+      "category": "Beverages",
+      "quantity": 55,
+      "cost": 9.99,
+      "price": 11.49
+    },
+    {
+      "id": 20,
+      "productName": "Natural Hair Oil",
+      "category": "Hair Care",
+      "quantity": 48,
+      "cost": 10.99,
+      "price": 12.99
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "skin care"
+    },
+    {
+      "name": "hair care",
+      "id": 3
+    },
+    {
+      "name": "lip care",
+      "id": 4
+    },
+    {
+      "name": "bath & body",
+      "id": 5
+    },
+    {
+      "name": "home fragrance",
+      "id": 6
+    },
+    {
+      "name": "beverages",
+      "id": 7
+    },
+    {
+      "name": "oral care",
+      "id": 8
+    },
+    {
+      "name": "fitness",
+      "id": 9
+    },
+    {
+      "name": "accessories",
+      "id": 10
+    },
+    {
+      "name": "home decor",
+      "id": 11
+    },
+    {
+      "name": "cooking",
+      "id": 12
+    },
+    {
+      "name": "environment",
       "id": 13
-    },
-    {
-      "date": "2022-07-09",
-      "description": "Office lunch Wednesday",
-      "category": "Food",
-      "amount": "3000",
-      "id": 14
     }
   ]
 }
