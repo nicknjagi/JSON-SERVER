@@ -1,27 +1,210 @@
 {
-  "todos": [
+  "items": [
     {
-      "id": "0c1a",
-      "title": "Write launch article to publish on multiple channels",
-      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nemo similique cupiditate dolor commodi odio ab id ea, distinctio nam!",
-      "priority": "Low",
-      "complete": true,
-      "timeTaken": 22378,
-      "dueDate": "2024-06-09",
-      "isActive": false,
-      "createdAt": "2024-05-03T05:01:49.836Z"
+      "id": 1,
+      "productName": "Tea Tree Face Wash",
+      "category": "skin care",
+      "quantity": "6",
+      "cost": "8.99",
+      "price": "11.99"
     },
     {
-      "id": "f31b",
-      "title": "Build UI for onboarding flow",
-      "details": "Make beautiful websites regardless of your design experience. Lorem ipsum dolor sit amet.",
-      "priority": "High",
-      "complete": false,
-      "timeTaken": 0,
-      "dueDate": "2024-06-17",
-      "isActive": true,
-      "createdAt": "2024-05-03T05:01:39.728Z"
+      "id": 3,
+      "productName": "Aloe Vera Gel",
+      "category": "Skin Care",
+      "quantity": 57,
+      "cost": 6.75,
+      "price": 8.99
+    },
+    {
+      "id": 4,
+      "productName": "Lavender Shampoo",
+      "category": "Hair Care",
+      "quantity": 33,
+      "cost": 9.75,
+      "price": 12.49
+    },
+    {
+      "id": 5,
+      "productName": "Cucumber Eye Cream",
+      "category": "Skin Care",
+      "quantity": 22,
+      "cost": 5.99,
+      "price": 7.99
+    },
+    {
+      "id": 6,
+      "productName": "Argan Oil Conditioner",
+      "category": "Hair Care",
+      "quantity": 40,
+      "cost": 11.25,
+      "price": 14.99
+    },
+    {
+      "id": 7,
+      "productName": "Lip Balm Set",
+      "category": "Lip Care",
+      "quantity": 75,
+      "cost": 4.99,
+      "price": 6.99
+    },
+    {
+      "id": 8,
+      "productName": "Handmade Soap",
+      "category": "Bath & Body",
+      "quantity": 29,
+      "cost": 3.49,
+      "price": 4.99
+    },
+    {
+      "id": 10,
+      "productName": "Chamomile Tea",
+      "category": "Beverages",
+      "quantity": 120,
+      "cost": 3.99,
+      "price": 5.99
+    },
+    {
+      "id": 11,
+      "productName": "Organic Toothpaste",
+      "category": "Oral Care",
+      "quantity": 50,
+      "cost": 6.25,
+      "price": 7.99
+    },
+    {
+      "id": 12,
+      "productName": "Yoga Mat",
+      "category": "fitness",
+      "quantity": "15",
+      "cost": "18.99",
+      "price": "24.99"
+    },
+    {
+      "id": 13,
+      "productName": "Leather Wallet",
+      "category": "Accessories",
+      "quantity": 40,
+      "cost": 22.99,
+      "price": 29.99
+    },
+    {
+      "id": 14,
+      "productName": "Scented Candles",
+      "category": "Home Decor",
+      "quantity": 38,
+      "cost": 5.99,
+      "price": 8.49
+    },
+    {
+      "id": 15,
+      "productName": "Olive Oil",
+      "category": "Cooking",
+      "quantity": 60,
+      "cost": 7.49,
+      "price": 9.99
+    },
+    {
+      "id": 16,
+      "productName": "Bamboo Toothbrush",
+      "category": "Oral Care",
+      "quantity": 70,
+      "cost": 1.99,
+      "price": 3.49
+    },
+    {
+      "id": 17,
+      "productName": "Reusable Shopping Bag",
+      "category": "Environment",
+      "quantity": 80,
+      "cost": 2.49,
+      "price": 3.99
+    },
+    {
+      "id": 18,
+      "productName": "Moringa Body Butter",
+      "category": "Skin Care",
+      "quantity": 28,
+      "cost": 14.99,
+      "price": 17.99
+    },
+    {
+      "id": 19,
+      "productName": "Herbal Tea Set",
+      "category": "Beverages",
+      "quantity": 55,
+      "cost": 9.99,
+      "price": 11.49
+    },
+    {
+      "id": 20,
+      "productName": "Natural Hair Oil",
+      "category": "Hair Care",
+      "quantity": 48,
+      "cost": 10.99,
+      "price": 12.99
+    },
+    {
+      "productName": "laptop",
+      "category": "electronics",
+      "quantity": "7",
+      "cost": "1000",
+      "price": "1500",
+      "id": 21
     }
   ],
-  "events": []
+  "categories": [
+    {
+      "id": 1,
+      "name": "skin care"
+    },
+    {
+      "name": "hair care",
+      "id": 3
+    },
+    {
+      "name": "lip care",
+      "id": 4
+    },
+    {
+      "name": "bath & body",
+      "id": 5
+    },
+    {
+      "name": "home fragrance",
+      "id": 6
+    },
+    {
+      "name": "beverages",
+      "id": 7
+    },
+    {
+      "name": "oral care",
+      "id": 8
+    },
+    {
+      "name": "fitness",
+      "id": 9
+    },
+    {
+      "name": "accessories",
+      "id": 10
+    },
+    {
+      "name": "home decor",
+      "id": 11
+    },
+    {
+      "name": "cooking",
+      "id": 12
+    },
+    {
+      "name": "environment",
+      "id": 13
+    },
+    {
+      "name": "electronics",
+      "id": 14
+    }
+  ]
 }
